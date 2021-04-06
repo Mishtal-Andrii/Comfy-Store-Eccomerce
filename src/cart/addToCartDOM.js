@@ -16,16 +16,16 @@ const addToCartDOM = ({ id, name, price, image, amount }) => {
             </div>
           
             <div>
-              <button class="cart-item-increase-btn" data-id="${id}">
+              <button class="cart-item-increase-btn" data-id="${id}">                    
                 <i class="fas fa-chevron-up"></i>
               </button>
               <p class="cart-item-amount" data-id="${id}">${amount}</p>
               <button class="cart-item-decrease-btn" data-id="${id}">
-                <i class="fas fa-chevron-down"></i>
+                <i class="fas fa-chevron-down"></i>              
               </button>
             </div>
   `;
   cartItemsDOM.appendChild(article);
 };
 
-export default addToCartDOM;
+export default addToCartDOM;                                    

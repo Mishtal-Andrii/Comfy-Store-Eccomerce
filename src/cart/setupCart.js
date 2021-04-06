@@ -70,7 +70,7 @@ function increaseAmount(id) {
     }
     return cartItem;
   });
-  return newAmount;
+  return newAmount; 
 }
 function decreaseAmount(id) {
   let newAmount;
